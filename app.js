@@ -11,7 +11,7 @@ const port = 3000;
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-//using st\atic files in the public
+//using static files in the public
 app.use(express.static("public"));
 
 //index routes setting
