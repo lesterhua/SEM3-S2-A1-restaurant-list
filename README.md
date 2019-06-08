@@ -42,7 +42,7 @@ cd restaurant_list
 
 #### 安裝成功後，會在端端機看到訊息"Express is running on :http://localhost:3000
 
-## 畫面
+## 畫面 - Demo
 
 ![alt text](https://github.com/lesterhua/SEM3-S2-A1-restaurant-list/blob/master/public/views.gif)
 
