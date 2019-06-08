@@ -44,7 +44,7 @@ cd restaurant_list
 
 ## 畫面
 
-![alt text](https://github.com/lesterhua/movies-list-by-node.js/blob/master/public/view.gif)
+![alt text](https://github.com/lesterhua/SEM3-S2-A1-restaurant-list/blob/master/public/views.gif)
 
 ## 作者
 
