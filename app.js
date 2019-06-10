@@ -20,12 +20,12 @@ app.get("/", function(req, res) {
 });
 
 //show routes setting
-app.get("/restaurants/:restaurant_name", function(req, res) {
-  console.log("req.params", req.params.restaurant_name);
-  const restaurantId = allRestaurant.results.find(function(restaurant) {
-    return restaurant.id.toString() === req.params.restaurant_name;
+app.get("/restaurants/:id", function(req, res) {
+  console.log("req.params", req.params.id);
+  const restaurant = allRestaurant.results.find(function(restaurant) {
+    return restaurant.id.toString() === req.params.id;
   });
-  res.render("show", { restaurant: restaurantId });
+  res.render("show", { restaurant: restaurant });
 });
 
 //search bar setting
